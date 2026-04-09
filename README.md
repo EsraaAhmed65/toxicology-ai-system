@@ -1,6 +1,6 @@
 # 🧪 AI-Powered Toxicity Pattern Detection System
 
-An AI-based decision support system for early detection and classification of toxic exposure patterns based on clinical symptoms, exposure indicators, and severity signals.
+A Machine Learning-based decision support system for early detection and classification of toxic exposure patterns using clinical symptoms, exposure indicators, and severity signals.
 
 The system classifies cases into four categories:
 
@@ -9,15 +9,15 @@ The system classifies cases into four categories:
 - Polonium-like  
 - Borderline  
 
-The system is designed to assist in detecting complex and uncertain toxic patterns.
+The system is designed to assist in identifying complex and uncertain toxic patterns, especially in early-stage screening scenarios.
 
 ---
 
 ## 📌 Project Overview
 
-This project was developed as an intelligent toxicology screening system that analyzes clinical and exposure-related features to predict toxin-like patterns.
+This project was developed as an intelligent toxicology screening system that analyzes clinical symptoms and exposure-related features.
 
-Rather than identifying the exact toxin chemically, the system works as a **pattern-based diagnostic support tool**. It helps detect cases that resemble:
+Rather than identifying the exact toxin chemically, the system works as a **pattern-based diagnostic support tool**. It helps identify patterns that resemble:
 
 - **Ricin-like toxicity**: acute gastrointestinal and ingestion-related toxic pattern  
 - **Polonium-like toxicity**: radiation-like systemic damage pattern  
@@ -102,7 +102,7 @@ The model uses the following features:
 - Sudden onset  
 - Progressive deterioration  
 - Feed exposure  
-- Radiation pattern  
+- Radiation exposure pattern  
 - Herd cluster  
 
 ### Severity scores:
@@ -129,7 +129,7 @@ That means:
 - **Ricin-like** = resembles a ricin-like toxic pattern  
 - **Polonium-like** = resembles a radiation-like toxic pattern  
 
-The system should be used as an **early screening and decision support tool**, not as a definitive diagnostic solution.
+The system should be used as an **early screening and decision support tool**, not as a definitive clinical or laboratory diagnosis.
 
 ---
 
