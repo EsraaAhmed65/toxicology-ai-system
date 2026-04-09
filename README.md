@@ -58,6 +58,32 @@ The core model is a **Calibrated Random Forest Classifier** trained on a synthet
 - **Borderline**
 
 ---
+## 📊 Model Performance
+
+The model was evaluated using a held-out test set and cross-validation.
+
+### Test Results:
+- Accuracy: 91.8%
+- Macro Avg F1-score: 0.91
+- Weighted Avg F1-score: 0.92
+
+### Class-wise Performance:
+| Class          | Precision | Recall | F1-score |
+|---------------|----------|--------|---------|
+| Borderline     | 0.79     | 0.78   | 0.78    |
+| Normal         | 0.94     | 0.94   | 0.94    |
+| Polonium-like  | 0.91     | 0.91   | 0.91    |
+| Ricin-like     | 0.98     | 1.00   | 0.99    |
+
+### Cross Validation:
+- Mean Accuracy: 0.93
+
+### Notes:
+- The model shows strong performance on distinct classes (Ricin-like, Normal)
+- Borderline cases remain the most challenging due to overlapping patterns
+- Calibration improved confidence reliability without sacrificing accuracy
+
+
 
 ## 📊 Input Features
 
